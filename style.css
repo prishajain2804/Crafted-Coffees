@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    background-color: #E0E5EC;
+}
+a {
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    padding: 20px 32px;
+}
+
+/* HEADER */
+.header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("/Crafted Coffees/Cafe3.jpeg") center/cover no-repeat;
+    background-attachment: fixed;
+}
+.divider {
+    height: 0.5rem;
+    background: linear-gradient( to left, #a07070, #bc8b8b, #8e4242, #a28f8f, #513434 );
+}
+.nav a {
+    padding: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #f8f9fa;
+    font-weight: 500;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav a:hover {
+    color: #bd1220;
+}
+.heading h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: #ffffff ;
+    letter-spacing: 4px;
+    margin-top: 15%;
+}
+.heading h3 {
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+ font-size: 35px;
+ color: #ffffff;
+ letter-spacing: 4px;
+}
+
+/* SECTIONS */
+/* FIRST */
+.container2 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+.first {
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    align-items: baseline;
+    font-size: 16px;
+    color: #bd1220;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.first_h {
+    padding: 10px;
+    margin: 10px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.first_p {
+    font-size: 16px;
+}
+.first_h:hover {
+    color: #8e4242;
+    font-size: 17px;
+}
+.container2:hover {
+    background:#52080e;
+    opacity: 1.2;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.container2:hover p {
+    color: white;
+}
+
+/* SECOND */
+#video {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.container3 {
+    width: 50%;
+    padding: 1rem;
+    margin-top: 40px;
+}
+.second_h {
+    color: #bd1220;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.second_p{
+    margin: 1rem 0;
+    max-width: 26rem;
+    font-size: 16px;
+}
+.btn {
+    padding: 10px 30px;
+    margin-top: 2rem;
+    border: 2px solid #bd1220;
+    color: #000000;
+}
+.btn:hover {
+    background-color: #bd1220;
+    color: white;
+}
+
+/* THIRD */
+.menu_bg {
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('Cafe1.jpg') center/cover no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    margin-top: 80px;
+}
+/*.third_h {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}*/
+.third_h h1 {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: #bd1220;
+    font-size: 40px;
+}
+.third_h h3 {
+    font-size: 50px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    color: #f8f9fa;
+    letter-spacing: 0.3em;
+}
+
+/* FOURTH */
+.hr_container {
+    display: inline-flex;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 30px;
+}
+.hr_btn {
+    width: 100%;
+    height: 41px;
+    padding-top: 2.5%;
+}
+.hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-color: black;
+}
+.img_circle {
+    width: 75px;
+}
+.button {
+    background-color: #E0E5EC;
+    border-radius: 50%;
+    border: 5px solid #E0E5EC;
+    width: 10%;
+    transition: 0.5s;
+    box-shadow: none;
+    outline: none;
+}
